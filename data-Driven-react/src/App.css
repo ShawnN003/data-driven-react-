@@ -1,0 +1,25 @@
+html, body{
+  margin:0;
+}
+img{
+  width: 150px;
+  height: auto;
+}
+header{
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100px;
+}
+
+header > img {
+  width: 100px;
+  margin-right: 100px;
+}
+
+header > h1 {
+  font-size: 3rem;
+}
+
